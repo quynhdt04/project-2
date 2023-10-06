@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --color-main: #8261ee;
+    --color-highlight: #ff589e;
+    --color-text1: #1e1e1e;
+    --color-text2:  #777;
+    --bg1: #F2F2FE ;
+
+    --font: 'Raleway', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--font);
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+/* button  */
+
+.button{
+    background: #ddd;
+    color: #fff;
+    font-size: 12.5px;
+    border-radius: 25px;
+    border: 0;
+    padding: 12px 25px;
+    transform: all 0.3s;
+    display: inline-block;
+}
+
+.button-main{
+    background: var(--color-main);
+    padding: 18px 30px;
+    border-radius: 18px;
+    color: #fff;
+}
+.button-highlight1{
+    background: var(--color-highlight);
+    padding: 18px 30px;
+    border-radius: 18px;
+    color: #fff;
+}
+
+.button-highlight{
+    background: var(--color-highlight);
+}
+
+.button-highlight:hover{
+    background: var(--color-main);
+    color: #fff;
+}
+
+.button-highlightR{
+    background: var(--color-main);
+    padding: 10px 25px;
+}
+
+.button-highlightR:hover{
+    background: var(--color-highlight)
+}
+
+
+/* end button  */
+
+
+/* box head  */
+.box-head{
+    text-align: center;
+    margin: 40px auto;
+}
+
+.box-head .inner-title{
+    color: var(--color-text1);
+    font-size: 27px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+
+.box-head .inner-desc{
+    color: var(--color-text2);
+}
+
+
+.box-head.inner-white .inner-title{
+    color: #fff;
+}
+
+.box-head.box-head.inner-white .inner-desc{
+    color: #fff;
+}
+/* end box head  */
+
+
+.brick{
+    text-decoration: line-through;
+}
